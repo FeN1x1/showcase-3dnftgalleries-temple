@@ -594,346 +594,346 @@ const transform25 = new Transform({
 });
 entity5.addComponentOrReplace(transform25);
 
-const entity6 = new Entity("entity6");
-engine.addEntity(entity6);
-entity6.setParent(_scene);
-entity6.addComponentOrReplace(gltfShape8);
-const transform26 = new Transform({
-  position: new Vector3(88, 0, 8),
-  rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(1, 1, 1),
-});
-entity6.addComponentOrReplace(transform26);
+// const entity6 = new Entity("entity6");
+// engine.addEntity(entity6);
+// entity6.setParent(_scene);
+// entity6.addComponentOrReplace(gltfShape8);
+// const transform26 = new Transform({
+//   position: new Vector3(88, 0, 8),
+//   rotation: new Quaternion(0, 0, 0, 1),
+//   scale: new Vector3(1, 1, 1),
+// });
+// entity6.addComponentOrReplace(transform26);
 
-const entity7 = new Entity("entity7");
-engine.addEntity(entity7);
-entity7.setParent(_scene);
-entity7.addComponentOrReplace(gltfShape8);
-const transform27 = new Transform({
-  position: new Vector3(8, 0, 24),
-  rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(1, 1, 1),
-});
-entity7.addComponentOrReplace(transform27);
+// const entity7 = new Entity("entity7");
+// engine.addEntity(entity7);
+// entity7.setParent(_scene);
+// entity7.addComponentOrReplace(gltfShape8);
+// const transform27 = new Transform({
+//   position: new Vector3(8, 0, 24),
+//   rotation: new Quaternion(0, 0, 0, 1),
+//   scale: new Vector3(1, 1, 1),
+// });
+// entity7.addComponentOrReplace(transform27);
 
-const entity8 = new Entity("entity8");
-engine.addEntity(entity8);
-entity8.setParent(_scene);
-entity8.addComponentOrReplace(gltfShape8);
-const transform28 = new Transform({
-  position: new Vector3(24, 0, 24),
-  rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(1, 1, 1),
-});
-entity8.addComponentOrReplace(transform28);
+// const entity8 = new Entity("entity8");
+// engine.addEntity(entity8);
+// entity8.setParent(_scene);
+// entity8.addComponentOrReplace(gltfShape8);
+// const transform28 = new Transform({
+//   position: new Vector3(24, 0, 24),
+//   rotation: new Quaternion(0, 0, 0, 1),
+//   scale: new Vector3(1, 1, 1),
+// });
+// entity8.addComponentOrReplace(transform28);
 
-const entity9 = new Entity("entity9");
-engine.addEntity(entity9);
-entity9.setParent(_scene);
-entity9.addComponentOrReplace(gltfShape8);
-const transform29 = new Transform({
-  position: new Vector3(40, 0, 24),
-  rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(1, 1, 1),
-});
-entity9.addComponentOrReplace(transform29);
+// const entity9 = new Entity("entity9");
+// engine.addEntity(entity9);
+// entity9.setParent(_scene);
+// entity9.addComponentOrReplace(gltfShape8);
+// const transform29 = new Transform({
+//   position: new Vector3(40, 0, 24),
+//   rotation: new Quaternion(0, 0, 0, 1),
+//   scale: new Vector3(1, 1, 1),
+// });
+// entity9.addComponentOrReplace(transform29);
 
-const entity10 = new Entity("entity10");
-engine.addEntity(entity10);
-entity10.setParent(_scene);
-entity10.addComponentOrReplace(gltfShape8);
-const transform30 = new Transform({
-  position: new Vector3(56, 0, 24),
-  rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(1, 1, 1),
-});
-entity10.addComponentOrReplace(transform30);
+// const entity10 = new Entity("entity10");
+// engine.addEntity(entity10);
+// entity10.setParent(_scene);
+// entity10.addComponentOrReplace(gltfShape8);
+// const transform30 = new Transform({
+//   position: new Vector3(56, 0, 24),
+//   rotation: new Quaternion(0, 0, 0, 1),
+//   scale: new Vector3(1, 1, 1),
+// });
+// entity10.addComponentOrReplace(transform30);
 
-const entity11 = new Entity("entity11");
-engine.addEntity(entity11);
-entity11.setParent(_scene);
-entity11.addComponentOrReplace(gltfShape8);
-const transform31 = new Transform({
-  position: new Vector3(72, 0, 24),
-  rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(1, 1, 1),
-});
-entity11.addComponentOrReplace(transform31);
+// const entity11 = new Entity("entity11");
+// engine.addEntity(entity11);
+// entity11.setParent(_scene);
+// entity11.addComponentOrReplace(gltfShape8);
+// const transform31 = new Transform({
+//   position: new Vector3(72, 0, 24),
+//   rotation: new Quaternion(0, 0, 0, 1),
+//   scale: new Vector3(1, 1, 1),
+// });
+// entity11.addComponentOrReplace(transform31);
 
-const entity12 = new Entity("entity12");
-engine.addEntity(entity12);
-entity12.setParent(_scene);
-entity12.addComponentOrReplace(gltfShape8);
-const transform32 = new Transform({
-  position: new Vector3(88, 0, 24),
-  rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(1, 1, 1),
-});
-entity12.addComponentOrReplace(transform32);
+// const entity12 = new Entity("entity12");
+// engine.addEntity(entity12);
+// entity12.setParent(_scene);
+// entity12.addComponentOrReplace(gltfShape8);
+// const transform32 = new Transform({
+//   position: new Vector3(88, 0, 24),
+//   rotation: new Quaternion(0, 0, 0, 1),
+//   scale: new Vector3(1, 1, 1),
+// });
+// entity12.addComponentOrReplace(transform32);
 
-const entity13 = new Entity("entity13");
-engine.addEntity(entity13);
-entity13.setParent(_scene);
-entity13.addComponentOrReplace(gltfShape8);
-const transform33 = new Transform({
-  position: new Vector3(8, 0, 40),
-  rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(1, 1, 1),
-});
-entity13.addComponentOrReplace(transform33);
+// const entity13 = new Entity("entity13");
+// engine.addEntity(entity13);
+// entity13.setParent(_scene);
+// entity13.addComponentOrReplace(gltfShape8);
+// const transform33 = new Transform({
+//   position: new Vector3(8, 0, 40),
+//   rotation: new Quaternion(0, 0, 0, 1),
+//   scale: new Vector3(1, 1, 1),
+// });
+// entity13.addComponentOrReplace(transform33);
 
-const entity14 = new Entity("entity14");
-engine.addEntity(entity14);
-entity14.setParent(_scene);
-entity14.addComponentOrReplace(gltfShape8);
-const transform34 = new Transform({
-  position: new Vector3(24, 0, 40),
-  rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(1, 1, 1),
-});
-entity14.addComponentOrReplace(transform34);
+// const entity14 = new Entity("entity14");
+// engine.addEntity(entity14);
+// entity14.setParent(_scene);
+// entity14.addComponentOrReplace(gltfShape8);
+// const transform34 = new Transform({
+//   position: new Vector3(24, 0, 40),
+//   rotation: new Quaternion(0, 0, 0, 1),
+//   scale: new Vector3(1, 1, 1),
+// });
+// entity14.addComponentOrReplace(transform34);
 
-const entity15 = new Entity("entity15");
-engine.addEntity(entity15);
-entity15.setParent(_scene);
-entity15.addComponentOrReplace(gltfShape8);
-const transform35 = new Transform({
-  position: new Vector3(40, 0, 40),
-  rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(1, 1, 1),
-});
-entity15.addComponentOrReplace(transform35);
+// const entity15 = new Entity("entity15");
+// engine.addEntity(entity15);
+// entity15.setParent(_scene);
+// entity15.addComponentOrReplace(gltfShape8);
+// const transform35 = new Transform({
+//   position: new Vector3(40, 0, 40),
+//   rotation: new Quaternion(0, 0, 0, 1),
+//   scale: new Vector3(1, 1, 1),
+// });
+// entity15.addComponentOrReplace(transform35);
 
-const entity16 = new Entity("entity16");
-engine.addEntity(entity16);
-entity16.setParent(_scene);
-entity16.addComponentOrReplace(gltfShape8);
-const transform36 = new Transform({
-  position: new Vector3(56, 0, 40),
-  rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(1, 1, 1),
-});
-entity16.addComponentOrReplace(transform36);
+// const entity16 = new Entity("entity16");
+// engine.addEntity(entity16);
+// entity16.setParent(_scene);
+// entity16.addComponentOrReplace(gltfShape8);
+// const transform36 = new Transform({
+//   position: new Vector3(56, 0, 40),
+//   rotation: new Quaternion(0, 0, 0, 1),
+//   scale: new Vector3(1, 1, 1),
+// });
+// entity16.addComponentOrReplace(transform36);
 
-const entity17 = new Entity("entity17");
-engine.addEntity(entity17);
-entity17.setParent(_scene);
-entity17.addComponentOrReplace(gltfShape8);
-const transform37 = new Transform({
-  position: new Vector3(72, 0, 40),
-  rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(1, 1, 1),
-});
-entity17.addComponentOrReplace(transform37);
+// const entity17 = new Entity("entity17");
+// engine.addEntity(entity17);
+// entity17.setParent(_scene);
+// entity17.addComponentOrReplace(gltfShape8);
+// const transform37 = new Transform({
+//   position: new Vector3(72, 0, 40),
+//   rotation: new Quaternion(0, 0, 0, 1),
+//   scale: new Vector3(1, 1, 1),
+// });
+// entity17.addComponentOrReplace(transform37);
 
-const entity18 = new Entity("entity18");
-engine.addEntity(entity18);
-entity18.setParent(_scene);
-entity18.addComponentOrReplace(gltfShape8);
-const transform38 = new Transform({
-  position: new Vector3(88, 0, 40),
-  rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(1, 1, 1),
-});
-entity18.addComponentOrReplace(transform38);
+// const entity18 = new Entity("entity18");
+// engine.addEntity(entity18);
+// entity18.setParent(_scene);
+// entity18.addComponentOrReplace(gltfShape8);
+// const transform38 = new Transform({
+//   position: new Vector3(88, 0, 40),
+//   rotation: new Quaternion(0, 0, 0, 1),
+//   scale: new Vector3(1, 1, 1),
+// });
+// entity18.addComponentOrReplace(transform38);
 
-const entity19 = new Entity("entity19");
-engine.addEntity(entity19);
-entity19.setParent(_scene);
-entity19.addComponentOrReplace(gltfShape8);
-const transform39 = new Transform({
-  position: new Vector3(8, 0, 56),
-  rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(1, 1, 1),
-});
-entity19.addComponentOrReplace(transform39);
+// const entity19 = new Entity("entity19");
+// engine.addEntity(entity19);
+// entity19.setParent(_scene);
+// entity19.addComponentOrReplace(gltfShape8);
+// const transform39 = new Transform({
+//   position: new Vector3(8, 0, 56),
+//   rotation: new Quaternion(0, 0, 0, 1),
+//   scale: new Vector3(1, 1, 1),
+// });
+// entity19.addComponentOrReplace(transform39);
 
-const entity20 = new Entity("entity20");
-engine.addEntity(entity20);
-entity20.setParent(_scene);
-entity20.addComponentOrReplace(gltfShape8);
-const transform40 = new Transform({
-  position: new Vector3(24, 0, 56),
-  rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(1, 1, 1),
-});
-entity20.addComponentOrReplace(transform40);
+// const entity20 = new Entity("entity20");
+// engine.addEntity(entity20);
+// entity20.setParent(_scene);
+// entity20.addComponentOrReplace(gltfShape8);
+// const transform40 = new Transform({
+//   position: new Vector3(24, 0, 56),
+//   rotation: new Quaternion(0, 0, 0, 1),
+//   scale: new Vector3(1, 1, 1),
+// });
+// entity20.addComponentOrReplace(transform40);
 
-const entity21 = new Entity("entity21");
-engine.addEntity(entity21);
-entity21.setParent(_scene);
-entity21.addComponentOrReplace(gltfShape8);
-const transform41 = new Transform({
-  position: new Vector3(40, 0, 56),
-  rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(1, 1, 1),
-});
-entity21.addComponentOrReplace(transform41);
+// const entity21 = new Entity("entity21");
+// engine.addEntity(entity21);
+// entity21.setParent(_scene);
+// entity21.addComponentOrReplace(gltfShape8);
+// const transform41 = new Transform({
+//   position: new Vector3(40, 0, 56),
+//   rotation: new Quaternion(0, 0, 0, 1),
+//   scale: new Vector3(1, 1, 1),
+// });
+// entity21.addComponentOrReplace(transform41);
 
-const entity22 = new Entity("entity22");
-engine.addEntity(entity22);
-entity22.setParent(_scene);
-entity22.addComponentOrReplace(gltfShape8);
-const transform42 = new Transform({
-  position: new Vector3(56, 0, 56),
-  rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(1, 1, 1),
-});
-entity22.addComponentOrReplace(transform42);
+// const entity22 = new Entity("entity22");
+// engine.addEntity(entity22);
+// entity22.setParent(_scene);
+// entity22.addComponentOrReplace(gltfShape8);
+// const transform42 = new Transform({
+//   position: new Vector3(56, 0, 56),
+//   rotation: new Quaternion(0, 0, 0, 1),
+//   scale: new Vector3(1, 1, 1),
+// });
+// entity22.addComponentOrReplace(transform42);
 
-const entity23 = new Entity("entity23");
-engine.addEntity(entity23);
-entity23.setParent(_scene);
-entity23.addComponentOrReplace(gltfShape8);
-const transform43 = new Transform({
-  position: new Vector3(72, 0, 56),
-  rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(1, 1, 1),
-});
-entity23.addComponentOrReplace(transform43);
+// const entity23 = new Entity("entity23");
+// engine.addEntity(entity23);
+// entity23.setParent(_scene);
+// entity23.addComponentOrReplace(gltfShape8);
+// const transform43 = new Transform({
+//   position: new Vector3(72, 0, 56),
+//   rotation: new Quaternion(0, 0, 0, 1),
+//   scale: new Vector3(1, 1, 1),
+// });
+// entity23.addComponentOrReplace(transform43);
 
-const entity24 = new Entity("entity24");
-engine.addEntity(entity24);
-entity24.setParent(_scene);
-entity24.addComponentOrReplace(gltfShape8);
-const transform44 = new Transform({
-  position: new Vector3(88, 0, 56),
-  rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(1, 1, 1),
-});
-entity24.addComponentOrReplace(transform44);
+// const entity24 = new Entity("entity24");
+// engine.addEntity(entity24);
+// entity24.setParent(_scene);
+// entity24.addComponentOrReplace(gltfShape8);
+// const transform44 = new Transform({
+//   position: new Vector3(88, 0, 56),
+//   rotation: new Quaternion(0, 0, 0, 1),
+//   scale: new Vector3(1, 1, 1),
+// });
+// entity24.addComponentOrReplace(transform44);
 
-const entity25 = new Entity("entity25");
-engine.addEntity(entity25);
-entity25.setParent(_scene);
-entity25.addComponentOrReplace(gltfShape8);
-const transform45 = new Transform({
-  position: new Vector3(8, 0, 72),
-  rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(1, 1, 1),
-});
-entity25.addComponentOrReplace(transform45);
+// const entity25 = new Entity("entity25");
+// engine.addEntity(entity25);
+// entity25.setParent(_scene);
+// entity25.addComponentOrReplace(gltfShape8);
+// const transform45 = new Transform({
+//   position: new Vector3(8, 0, 72),
+//   rotation: new Quaternion(0, 0, 0, 1),
+//   scale: new Vector3(1, 1, 1),
+// });
+// entity25.addComponentOrReplace(transform45);
 
-const entity26 = new Entity("entity26");
-engine.addEntity(entity26);
-entity26.setParent(_scene);
-entity26.addComponentOrReplace(gltfShape8);
-const transform46 = new Transform({
-  position: new Vector3(24, 0, 72),
-  rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(1, 1, 1),
-});
-entity26.addComponentOrReplace(transform46);
+// const entity26 = new Entity("entity26");
+// engine.addEntity(entity26);
+// entity26.setParent(_scene);
+// entity26.addComponentOrReplace(gltfShape8);
+// const transform46 = new Transform({
+//   position: new Vector3(24, 0, 72),
+//   rotation: new Quaternion(0, 0, 0, 1),
+//   scale: new Vector3(1, 1, 1),
+// });
+// entity26.addComponentOrReplace(transform46);
 
-const entity27 = new Entity("entity27");
-engine.addEntity(entity27);
-entity27.setParent(_scene);
-entity27.addComponentOrReplace(gltfShape8);
-const transform47 = new Transform({
-  position: new Vector3(40, 0, 72),
-  rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(1, 1, 1),
-});
-entity27.addComponentOrReplace(transform47);
+// const entity27 = new Entity("entity27");
+// engine.addEntity(entity27);
+// entity27.setParent(_scene);
+// entity27.addComponentOrReplace(gltfShape8);
+// const transform47 = new Transform({
+//   position: new Vector3(40, 0, 72),
+//   rotation: new Quaternion(0, 0, 0, 1),
+//   scale: new Vector3(1, 1, 1),
+// });
+// entity27.addComponentOrReplace(transform47);
 
-const entity28 = new Entity("entity28");
-engine.addEntity(entity28);
-entity28.setParent(_scene);
-entity28.addComponentOrReplace(gltfShape8);
-const transform48 = new Transform({
-  position: new Vector3(56, 0, 72),
-  rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(1, 1, 1),
-});
-entity28.addComponentOrReplace(transform48);
+// const entity28 = new Entity("entity28");
+// engine.addEntity(entity28);
+// entity28.setParent(_scene);
+// entity28.addComponentOrReplace(gltfShape8);
+// const transform48 = new Transform({
+//   position: new Vector3(56, 0, 72),
+//   rotation: new Quaternion(0, 0, 0, 1),
+//   scale: new Vector3(1, 1, 1),
+// });
+// entity28.addComponentOrReplace(transform48);
 
-const entity29 = new Entity("entity29");
-engine.addEntity(entity29);
-entity29.setParent(_scene);
-entity29.addComponentOrReplace(gltfShape8);
-const transform49 = new Transform({
-  position: new Vector3(72, 0, 72),
-  rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(1, 1, 1),
-});
-entity29.addComponentOrReplace(transform49);
+// const entity29 = new Entity("entity29");
+// engine.addEntity(entity29);
+// entity29.setParent(_scene);
+// entity29.addComponentOrReplace(gltfShape8);
+// const transform49 = new Transform({
+//   position: new Vector3(72, 0, 72),
+//   rotation: new Quaternion(0, 0, 0, 1),
+//   scale: new Vector3(1, 1, 1),
+// });
+// entity29.addComponentOrReplace(transform49);
 
-const entity30 = new Entity("entity30");
-engine.addEntity(entity30);
-entity30.setParent(_scene);
-entity30.addComponentOrReplace(gltfShape8);
-const transform50 = new Transform({
-  position: new Vector3(88, 0, 72),
-  rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(1, 1, 1),
-});
-entity30.addComponentOrReplace(transform50);
+// const entity30 = new Entity("entity30");
+// engine.addEntity(entity30);
+// entity30.setParent(_scene);
+// entity30.addComponentOrReplace(gltfShape8);
+// const transform50 = new Transform({
+//   position: new Vector3(88, 0, 72),
+//   rotation: new Quaternion(0, 0, 0, 1),
+//   scale: new Vector3(1, 1, 1),
+// });
+// entity30.addComponentOrReplace(transform50);
 
-const bloomingTurquoiseAcaciaTree5 = new Entity("bloomingTurquoiseAcaciaTree5");
-engine.addEntity(bloomingTurquoiseAcaciaTree5);
-bloomingTurquoiseAcaciaTree5.setParent(_scene);
-const transform51 = new Transform({
-  position: new Vector3(17.5, 0, 76),
-  rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(1, 1, 1),
-});
-bloomingTurquoiseAcaciaTree5.addComponentOrReplace(transform51);
-bloomingTurquoiseAcaciaTree5.addComponentOrReplace(gltfShape4);
+// const bloomingTurquoiseAcaciaTree5 = new Entity("bloomingTurquoiseAcaciaTree5");
+// engine.addEntity(bloomingTurquoiseAcaciaTree5);
+// bloomingTurquoiseAcaciaTree5.setParent(_scene);
+// const transform51 = new Transform({
+//   position: new Vector3(17.5, 0, 76),
+//   rotation: new Quaternion(0, 0, 0, 1),
+//   scale: new Vector3(1, 1, 1),
+// });
+// bloomingTurquoiseAcaciaTree5.addComponentOrReplace(transform51);
+// bloomingTurquoiseAcaciaTree5.addComponentOrReplace(gltfShape4);
 
-const blueAcaciaTree5 = new Entity("blueAcaciaTree5");
-engine.addEntity(blueAcaciaTree5);
-blueAcaciaTree5.setParent(_scene);
-const transform52 = new Transform({
-  position: new Vector3(10, 0, 29),
-  rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(1, 1, 1),
-});
-blueAcaciaTree5.addComponentOrReplace(transform52);
-blueAcaciaTree5.addComponentOrReplace(gltfShape3);
+// const blueAcaciaTree5 = new Entity("blueAcaciaTree5");
+// engine.addEntity(blueAcaciaTree5);
+// blueAcaciaTree5.setParent(_scene);
+// const transform52 = new Transform({
+//   position: new Vector3(10, 0, 29),
+//   rotation: new Quaternion(0, 0, 0, 1),
+//   scale: new Vector3(1, 1, 1),
+// });
+// blueAcaciaTree5.addComponentOrReplace(transform52);
+// blueAcaciaTree5.addComponentOrReplace(gltfShape3);
 
-const clusteredBlueAcaciaTree4 = new Entity("clusteredBlueAcaciaTree4");
-engine.addEntity(clusteredBlueAcaciaTree4);
-clusteredBlueAcaciaTree4.setParent(_scene);
-const transform53 = new Transform({
-  position: new Vector3(6, 0, 11.5),
-  rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(1, 1, 1),
-});
-clusteredBlueAcaciaTree4.addComponentOrReplace(transform53);
-clusteredBlueAcaciaTree4.addComponentOrReplace(gltfShape2);
+// const clusteredBlueAcaciaTree4 = new Entity("clusteredBlueAcaciaTree4");
+// engine.addEntity(clusteredBlueAcaciaTree4);
+// clusteredBlueAcaciaTree4.setParent(_scene);
+// const transform53 = new Transform({
+//   position: new Vector3(6, 0, 11.5),
+//   rotation: new Quaternion(0, 0, 0, 1),
+//   scale: new Vector3(1, 1, 1),
+// });
+// clusteredBlueAcaciaTree4.addComponentOrReplace(transform53);
+// clusteredBlueAcaciaTree4.addComponentOrReplace(gltfShape2);
 
-const clusteredBlueAcaciaTree5 = new Entity("clusteredBlueAcaciaTree5");
-engine.addEntity(clusteredBlueAcaciaTree5);
-clusteredBlueAcaciaTree5.setParent(_scene);
-const transform54 = new Transform({
-  position: new Vector3(23, 0, 5.5),
-  rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(1, 1, 1),
-});
-clusteredBlueAcaciaTree5.addComponentOrReplace(transform54);
-clusteredBlueAcaciaTree5.addComponentOrReplace(gltfShape2);
+// const clusteredBlueAcaciaTree5 = new Entity("clusteredBlueAcaciaTree5");
+// engine.addEntity(clusteredBlueAcaciaTree5);
+// clusteredBlueAcaciaTree5.setParent(_scene);
+// const transform54 = new Transform({
+//   position: new Vector3(23, 0, 5.5),
+//   rotation: new Quaternion(0, 0, 0, 1),
+//   scale: new Vector3(1, 1, 1),
+// });
+// clusteredBlueAcaciaTree5.addComponentOrReplace(transform54);
+// clusteredBlueAcaciaTree5.addComponentOrReplace(gltfShape2);
 
-const blueAcaciaTree3 = new Entity("blueAcaciaTree3");
-engine.addEntity(blueAcaciaTree3);
-blueAcaciaTree3.setParent(_scene);
-const transform55 = new Transform({
-  position: new Vector3(10, 0, 4.5),
-  rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(1, 1, 1),
-});
-blueAcaciaTree3.addComponentOrReplace(transform55);
-blueAcaciaTree3.addComponentOrReplace(gltfShape3);
+// const blueAcaciaTree3 = new Entity("blueAcaciaTree3");
+// engine.addEntity(blueAcaciaTree3);
+// blueAcaciaTree3.setParent(_scene);
+// const transform55 = new Transform({
+//   position: new Vector3(10, 0, 4.5),
+//   rotation: new Quaternion(0, 0, 0, 1),
+//   scale: new Vector3(1, 1, 1),
+// });
+// blueAcaciaTree3.addComponentOrReplace(transform55);
+// blueAcaciaTree3.addComponentOrReplace(gltfShape3);
 
-const bloomingBlueAcaciaTree2 = new Entity("bloomingBlueAcaciaTree2");
-engine.addEntity(bloomingBlueAcaciaTree2);
-bloomingBlueAcaciaTree2.setParent(_scene);
-const transform56 = new Transform({
-  position: new Vector3(33.5, 0, 3.5),
-  rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(1, 1, 1),
-});
-bloomingBlueAcaciaTree2.addComponentOrReplace(transform56);
-bloomingBlueAcaciaTree2.addComponentOrReplace(gltfShape7);
+// const bloomingBlueAcaciaTree2 = new Entity("bloomingBlueAcaciaTree2");
+// engine.addEntity(bloomingBlueAcaciaTree2);
+// bloomingBlueAcaciaTree2.setParent(_scene);
+// const transform56 = new Transform({
+//   position: new Vector3(33.5, 0, 3.5),
+//   rotation: new Quaternion(0, 0, 0, 1),
+//   scale: new Vector3(1, 1, 1),
+// });
+// bloomingBlueAcaciaTree2.addComponentOrReplace(transform56);
+// bloomingBlueAcaciaTree2.addComponentOrReplace(gltfShape7);
 
 const bloomingBlueAcaciaTree3 = new Entity("bloomingBlueAcaciaTree3");
 engine.addEntity(bloomingBlueAcaciaTree3);
