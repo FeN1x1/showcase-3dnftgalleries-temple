@@ -391,17 +391,17 @@ gltfShape6.isPointerBlocker = true;
 gltfShape6.visible = true;
 magicGemstoneTorch.addComponentOrReplace(gltfShape6);
 
-// const magicGemstoneTorch2 = new Entity("magicGemstoneTorch2");
-// engine.addEntity(magicGemstoneTorch2);
-// magicGemstoneTorch2.setParent(_scene);
-// const transform9 = new Transform({
-//   position: new Vector3(37, 18, 32.5),
-//   rotation: new Quaternion(0, 0, 0, 1),
-//   scale: new Vector3(2.5, 2.5, 2.5),
-// });
-// hud.attachToEntity(magicGemstoneTorch2);
-// magicGemstoneTorch2.addComponentOrReplace(transform9);
-// magicGemstoneTorch2.addComponentOrReplace(gltfShape6);
+const magicGemstoneTorch2 = new Entity("magicGemstoneTorch2");
+engine.addEntity(magicGemstoneTorch2);
+magicGemstoneTorch2.setParent(_scene);
+const transform9 = new Transform({
+  position: new Vector3(37, 18, 32.5),
+  rotation: new Quaternion(0, 0, 0, 1),
+  scale: new Vector3(2.5, 2.5, 2.5),
+});
+hud.attachToEntity(magicGemstoneTorch2);
+magicGemstoneTorch2.addComponentOrReplace(transform9);
+magicGemstoneTorch2.addComponentOrReplace(gltfShape6);
 
 // const treasureChest = new Entity("treasureChest");
 // engine.addEntity(treasureChest);
@@ -1037,16 +1037,6 @@ const transform64 = new Transform({
 magicGemstoneTorch4.addComponentOrReplace(transform64);
 magicGemstoneTorch4.addComponentOrReplace(gltfShape6);
 
-log(counter)
-
-let testObject = counter === 0 ? {
-  onClick: [
-    { entityName: "fantasyChest", actionId: "toggle", values: {} },
-  ],
-  onClickText: "Open"
-} : {}
-
-
 const channelId = Math.random().toString(16).slice(2);
 const channelBus = new MessageBus();
 const inventory = createInventory(UICanvas, UIContainerStack, UIImage);
@@ -1058,7 +1048,12 @@ scriptChest.init();
 scriptLever.init();
 scriptChest.spawn(
   fantasyChest,
-  testObject,
+  {
+    onClick: [
+      { entityName: "fantasyChest", actionId: "toggle", values: {} },
+    ],
+    onClickText: "Open"
+  },
   createChannel(channelId, fantasyChest, channelBus)
 );
 scriptLever.spawn(
