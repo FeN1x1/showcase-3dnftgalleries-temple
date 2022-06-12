@@ -17,6 +17,7 @@
     "@dcl/ecs-scene-utils": "^1.7.5",
     "@dcl/ui-scene-utils": "^1.8.4",
     "dcl-builder-hud": "^1.1.6",
+    "decentraland": "^3.10.4",
     "decentraland-builder-scripts": "latest",
     "decentraland-ecs": "latest"
   },

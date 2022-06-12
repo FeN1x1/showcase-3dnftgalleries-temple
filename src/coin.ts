@@ -46,8 +46,6 @@ const coinpickup = () => {
  
   counter++
   if(counter === 16) {
-    log('test')
-    console.log('sdf')
     let prompt = new ui.OkPrompt(
       "You've collected all 16 coins! Chest was unlocked.",
       () => {
