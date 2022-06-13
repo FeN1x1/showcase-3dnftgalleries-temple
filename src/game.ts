@@ -43,7 +43,7 @@ for (const coinPosition of coinPositions) {
 
 const nft = new Entity();
 const shapeComponent = new NFTShape(
-  "ethereum://0x06012c8cf97BEaD5deAe237070F9587f8E7A266d/558536",
+  "ethereum://0x495f947276749ce646f68ac8c248420045cb7b5e/114100648793908731516086530325739881138433882098700789126105683247317414576129",
   {
     color: Color3.White(),
     style: PictureFrameStyle.Gold_Carved,
@@ -60,15 +60,15 @@ nft.addComponent(
 nft.addComponent(
   new OnPointerDown((e) => {
     openNFTDialog(
-      "ethereum://0x06012c8cf97BEaD5deAe237070F9587f8E7A266d/558536"
-    );
+      "ethereum://0x495f947276749ce646f68ac8c248420045cb7b5e/114100648793908731516086530325739881138433882098700789126105683247317414576129",
+      );
   })
 );
 engine.addEntity(nft);
 
 const nft2 = new Entity();
 const shapeComponent2 = new NFTShape(
-  "ethereum://0x06012c8cf97BEaD5deAe237070F9587f8E7A266d/558536",
+  "ethereum://0x495f947276749ce646f68ac8c248420045cb7b5e/114100648793908731516086530325739881138433882098700789126105683246217902948353",
   {
     color: Color3.White(),
     style: PictureFrameStyle.Gold_Carved,
@@ -85,7 +85,7 @@ nft2.addComponent(
 nft2.addComponent(
   new OnPointerDown((e) => {
     openNFTDialog(
-      "ethereum://0x06012c8cf97BEaD5deAe237070F9587f8E7A266d/558536"
+      "ethereum://0x495f947276749ce646f68ac8c248420045cb7b5e/114100648793908731516086530325739881138433882098700789126105683246217902948353"
     );
   })
 );
@@ -93,7 +93,7 @@ engine.addEntity(nft2);
 
 const nft3 = new Entity();
 const shapeComponent3 = new NFTShape(
-  "ethereum://0x06012c8cf97BEaD5deAe237070F9587f8E7A266d/558536",
+  "ethereum://0x495f947276749ce646f68ac8c248420045cb7b5e/114100648793908731516086530325739881138433882098700789126105683249516437831681",
   {
     color: Color3.White(),
     style: PictureFrameStyle.Gold_Carved,
@@ -110,7 +110,7 @@ nft3.addComponent(
 nft3.addComponent(
   new OnPointerDown((e) => {
     openNFTDialog(
-      "ethereum://0x06012c8cf97BEaD5deAe237070F9587f8E7A266d/558536"
+      "ethereum://0x495f947276749ce646f68ac8c248420045cb7b5e/114100648793908731516086530325739881138433882098700789126105683249516437831681"
     );
   })
 );
@@ -118,7 +118,7 @@ engine.addEntity(nft3);
 
 const nft4 = new Entity();
 const shapeComponent4 = new NFTShape(
-  "ethereum://0x06012c8cf97BEaD5deAe237070F9587f8E7A266d/558536",
+  "ethereum://0x495f947276749ce646f68ac8c248420045cb7b5e/114100648793908731516086530325739881138433882098700789126105683250615949459457",
   {
     color: Color3.White(),
     style: PictureFrameStyle.Gold_Carved,
@@ -135,7 +135,7 @@ nft4.addComponent(
 nft4.addComponent(
   new OnPointerDown((e) => {
     openNFTDialog(
-      "ethereum://0x06012c8cf97BEaD5deAe237070F9587f8E7A266d/558536"
+      "ethereum://0x495f947276749ce646f68ac8c248420045cb7b5e/114100648793908731516086530325739881138433882098700789126105683250615949459457"
     );
   })
 );
@@ -143,7 +143,7 @@ engine.addEntity(nft4);
 
 const nft5 = new Entity();
 const shapeComponent5 = new NFTShape(
-  "ethereum://0x06012c8cf97BEaD5deAe237070F9587f8E7A266d/558536",
+  "ethereum://0x495f947276749ce646f68ac8c248420045cb7b5e/114100648793908731516086530325739881138433882098700789126105683248416926203905",
   {
     color: Color3.White(),
     style: PictureFrameStyle.Diamond_Ornament,
@@ -160,7 +160,7 @@ nft5.addComponent(
 nft5.addComponent(
   new OnPointerDown((e) => {
     openNFTDialog(
-      "ethereum://0x06012c8cf97BEaD5deAe237070F9587f8E7A266d/558536"
+      "ethereum://0x495f947276749ce646f68ac8c248420045cb7b5e/114100648793908731516086530325739881138433882098700789126105683248416926203905"
     );
   })
 );
@@ -168,7 +168,7 @@ engine.addEntity(nft5);
 
 const nft6 = new Entity();
 const shapeComponent6 = new NFTShape(
-  "ethereum://0x06012c8cf97BEaD5deAe237070F9587f8E7A266d/558536",
+  "ethereum://0x495f947276749ce646f68ac8c248420045cb7b5e/114100648793908731516086530325739881138433882098700789126105683248416926203905",
   {
     color: Color3.White(),
     style: PictureFrameStyle.Diamond_Ornament,
@@ -185,7 +185,7 @@ nft6.addComponent(
 nft6.addComponent(
   new OnPointerDown((e) => {
     openNFTDialog(
-      "ethereum://0x06012c8cf97BEaD5deAe237070F9587f8E7A266d/558536"
+      "ethereum://0x495f947276749ce646f68ac8c248420045cb7b5e/114100648793908731516086530325739881138433882098700789126105683248416926203905"
     );
   })
 );
@@ -193,7 +193,7 @@ engine.addEntity(nft6);
 
 const nft7 = new Entity();
 const shapeComponent7 = new NFTShape(
-  "ethereum://0x06012c8cf97BEaD5deAe237070F9587f8E7A266d/558536",
+  "ethereum://0x495f947276749ce646f68ac8c248420045cb7b5e/114100648793908731516086530325739881138433882098700789126105683248416926203905",
   {
     color: Color3.White(),
     style: PictureFrameStyle.Diamond_Ornament,
@@ -210,7 +210,7 @@ nft7.addComponent(
 nft7.addComponent(
   new OnPointerDown((e) => {
     openNFTDialog(
-      "ethereum://0x06012c8cf97BEaD5deAe237070F9587f8E7A266d/558536"
+      "ethereum://0x495f947276749ce646f68ac8c248420045cb7b5e/114100648793908731516086530325739881138433882098700789126105683248416926203905"
     );
   })
 );
@@ -218,7 +218,7 @@ engine.addEntity(nft7);
 
 const nft8 = new Entity();
 const shapeComponent8 = new NFTShape(
-  "ethereum://0x06012c8cf97BEaD5deAe237070F9587f8E7A266d/558536",
+  "ethereum://0x495f947276749ce646f68ac8c248420045cb7b5e/114100648793908731516086530325739881138433882098700789126105683253914484342785",
   {
     color: Color3.White(),
     style: PictureFrameStyle.Diamond_Ornament,
@@ -235,7 +235,7 @@ nft8.addComponent(
 nft8.addComponent(
   new OnPointerDown((e) => {
     openNFTDialog(
-      "ethereum://0x06012c8cf97BEaD5deAe237070F9587f8E7A266d/558536"
+      "ethereum://0x495f947276749ce646f68ac8c248420045cb7b5e/114100648793908731516086530325739881138433882098700789126105683253914484342785"
     );
   })
 );
@@ -283,7 +283,7 @@ const transform2 = new Transform({
   ),
 });
 obj.addComponentOrReplace(transform2);
-const gltfShape = new GLTFShape("25d8ec36-6fbf-40d2-ac3c-dd8f3c26aff2/obj.glb");
+const gltfShape = new GLTFShape("models/aztec_temple.glb");
 gltfShape.withCollisions = true;
 gltfShape.isPointerBlocker = true;
 gltfShape.visible = true;
