@@ -1,5 +1,5 @@
-import * as utils from "@dcl/ecs-scene-utils";
-import { createCoin } from "./coin";
+// import * as utils from "@dcl/ecs-scene-utils";
+// import { createCoin } from "./coin";
 
 import { createChannel } from "../node_modules/decentraland-builder-scripts/channel";
 import { createInventory } from "../node_modules/decentraland-builder-scripts/inventory";
@@ -41,205 +41,205 @@ import ScriptLever from "../649d5d96-18be-4f89-b592-f2dfce64b7fe/src/item";
 //   );
 // }
 
-const nft = new Entity();
-const shapeComponent = new NFTShape(
-  "ethereum://0x06012c8cf97BEaD5deAe237070F9587f8E7A266d/558536",
-  {
-    color: Color3.White(),
-    style: PictureFrameStyle.Gold_Carved,
-  }
-);
-nft.addComponent(shapeComponent);
-nft.addComponent(
-  new Transform({
-    position: new Vector3(42, 19.3, 46.95),
-    rotation: new Quaternion(0, 0, 0, 1),
-    scale: new Vector3(3.4, 3.4, 3.4),
-  })
-);
-nft.addComponent(
-  new OnPointerDown((e) => {
-    openNFTDialog(
-      "ethereum://0x06012c8cf97BEaD5deAe237070F9587f8E7A266d/558536"
-    );
-  })
-);
-engine.addEntity(nft);
+// const nft = new Entity();
+// const shapeComponent = new NFTShape(
+//   "ethereum://0x06012c8cf97BEaD5deAe237070F9587f8E7A266d/558536",
+//   {
+//     color: Color3.White(),
+//     style: PictureFrameStyle.Gold_Carved,
+//   }
+// );
+// nft.addComponent(shapeComponent);
+// nft.addComponent(
+//   new Transform({
+//     position: new Vector3(42, 19.3, 46.95),
+//     rotation: new Quaternion(0, 0, 0, 1),
+//     scale: new Vector3(3.4, 3.4, 3.4),
+//   })
+// );
+// nft.addComponent(
+//   new OnPointerDown((e) => {
+//     openNFTDialog(
+//       "ethereum://0x06012c8cf97BEaD5deAe237070F9587f8E7A266d/558536"
+//     );
+//   })
+// );
+// engine.addEntity(nft);
 
-const nft2 = new Entity();
-const shapeComponent2 = new NFTShape(
-  "ethereum://0x06012c8cf97BEaD5deAe237070F9587f8E7A266d/558536",
-  {
-    color: Color3.White(),
-    style: PictureFrameStyle.Gold_Carved,
-  }
-);
-nft2.addComponent(shapeComponent2);
-nft2.addComponent(
-  new Transform({
-    position: new Vector3(48, 19.3, 46.95),
-    rotation: new Quaternion(0, 0, 0, 1),
-    scale: new Vector3(3.4, 3.4, 3.4),
-  })
-);
-nft2.addComponent(
-  new OnPointerDown((e) => {
-    openNFTDialog(
-      "ethereum://0x06012c8cf97BEaD5deAe237070F9587f8E7A266d/558536"
-    );
-  })
-);
-engine.addEntity(nft2);
+// const nft2 = new Entity();
+// const shapeComponent2 = new NFTShape(
+//   "ethereum://0x06012c8cf97BEaD5deAe237070F9587f8E7A266d/558536",
+//   {
+//     color: Color3.White(),
+//     style: PictureFrameStyle.Gold_Carved,
+//   }
+// );
+// nft2.addComponent(shapeComponent2);
+// nft2.addComponent(
+//   new Transform({
+//     position: new Vector3(48, 19.3, 46.95),
+//     rotation: new Quaternion(0, 0, 0, 1),
+//     scale: new Vector3(3.4, 3.4, 3.4),
+//   })
+// );
+// nft2.addComponent(
+//   new OnPointerDown((e) => {
+//     openNFTDialog(
+//       "ethereum://0x06012c8cf97BEaD5deAe237070F9587f8E7A266d/558536"
+//     );
+//   })
+// );
+// engine.addEntity(nft2);
 
-const nft3 = new Entity();
-const shapeComponent3 = new NFTShape(
-  "ethereum://0x06012c8cf97BEaD5deAe237070F9587f8E7A266d/558536",
-  {
-    color: Color3.White(),
-    style: PictureFrameStyle.Gold_Carved,
-  }
-);
-nft3.addComponent(shapeComponent3);
-nft3.addComponent(
-  new Transform({
-    position: new Vector3(42, 19.3, 35.1),
-    rotation: new Quaternion(0, 180, 0, 1),
-    scale: new Vector3(3.4, 3.4, 3.4),
-  })
-);
-nft3.addComponent(
-  new OnPointerDown((e) => {
-    openNFTDialog(
-      "ethereum://0x06012c8cf97BEaD5deAe237070F9587f8E7A266d/558536"
-    );
-  })
-);
-engine.addEntity(nft3);
+// const nft3 = new Entity();
+// const shapeComponent3 = new NFTShape(
+//   "ethereum://0x06012c8cf97BEaD5deAe237070F9587f8E7A266d/558536",
+//   {
+//     color: Color3.White(),
+//     style: PictureFrameStyle.Gold_Carved,
+//   }
+// );
+// nft3.addComponent(shapeComponent3);
+// nft3.addComponent(
+//   new Transform({
+//     position: new Vector3(42, 19.3, 35.1),
+//     rotation: new Quaternion(0, 180, 0, 1),
+//     scale: new Vector3(3.4, 3.4, 3.4),
+//   })
+// );
+// nft3.addComponent(
+//   new OnPointerDown((e) => {
+//     openNFTDialog(
+//       "ethereum://0x06012c8cf97BEaD5deAe237070F9587f8E7A266d/558536"
+//     );
+//   })
+// );
+// engine.addEntity(nft3);
 
-const nft4 = new Entity();
-const shapeComponent4 = new NFTShape(
-  "ethereum://0x06012c8cf97BEaD5deAe237070F9587f8E7A266d/558536",
-  {
-    color: Color3.White(),
-    style: PictureFrameStyle.Gold_Carved,
-  }
-);
-nft4.addComponent(shapeComponent4);
-nft4.addComponent(
-  new Transform({
-    position: new Vector3(48, 19.3, 35.1),
-    rotation: new Quaternion(0, 180, 0, 1),
-    scale: new Vector3(3.4, 3.4, 3.4),
-  })
-);
-nft4.addComponent(
-  new OnPointerDown((e) => {
-    openNFTDialog(
-      "ethereum://0x06012c8cf97BEaD5deAe237070F9587f8E7A266d/558536"
-    );
-  })
-);
-engine.addEntity(nft4);
+// const nft4 = new Entity();
+// const shapeComponent4 = new NFTShape(
+//   "ethereum://0x06012c8cf97BEaD5deAe237070F9587f8E7A266d/558536",
+//   {
+//     color: Color3.White(),
+//     style: PictureFrameStyle.Gold_Carved,
+//   }
+// );
+// nft4.addComponent(shapeComponent4);
+// nft4.addComponent(
+//   new Transform({
+//     position: new Vector3(48, 19.3, 35.1),
+//     rotation: new Quaternion(0, 180, 0, 1),
+//     scale: new Vector3(3.4, 3.4, 3.4),
+//   })
+// );
+// nft4.addComponent(
+//   new OnPointerDown((e) => {
+//     openNFTDialog(
+//       "ethereum://0x06012c8cf97BEaD5deAe237070F9587f8E7A266d/558536"
+//     );
+//   })
+// );
+// engine.addEntity(nft4);
 
-const nft5 = new Entity();
-const shapeComponent5 = new NFTShape(
-  "ethereum://0x06012c8cf97BEaD5deAe237070F9587f8E7A266d/558536",
-  {
-    color: Color3.White(),
-    style: PictureFrameStyle.Diamond_Ornament,
-  }
-);
-nft5.addComponent(shapeComponent5);
-nft5.addComponent(
-  new Transform({
-    position: new Vector3(51.65, 19.5, 35.6),
-    rotation: new Quaternion(0, 90, 0, -90),
-    scale: new Vector3(2.7, 2.7, 2.7),
-  })
-);
-nft5.addComponent(
-  new OnPointerDown((e) => {
-    openNFTDialog(
-      "ethereum://0x06012c8cf97BEaD5deAe237070F9587f8E7A266d/558536"
-    );
-  })
-);
-engine.addEntity(nft5);
+// const nft5 = new Entity();
+// const shapeComponent5 = new NFTShape(
+//   "ethereum://0x06012c8cf97BEaD5deAe237070F9587f8E7A266d/558536",
+//   {
+//     color: Color3.White(),
+//     style: PictureFrameStyle.Diamond_Ornament,
+//   }
+// );
+// nft5.addComponent(shapeComponent5);
+// nft5.addComponent(
+//   new Transform({
+//     position: new Vector3(51.65, 19.5, 35.6),
+//     rotation: new Quaternion(0, 90, 0, -90),
+//     scale: new Vector3(2.7, 2.7, 2.7),
+//   })
+// );
+// nft5.addComponent(
+//   new OnPointerDown((e) => {
+//     openNFTDialog(
+//       "ethereum://0x06012c8cf97BEaD5deAe237070F9587f8E7A266d/558536"
+//     );
+//   })
+// );
+// engine.addEntity(nft5);
 
-const nft6 = new Entity();
-const shapeComponent6 = new NFTShape(
-  "ethereum://0x06012c8cf97BEaD5deAe237070F9587f8E7A266d/558536",
-  {
-    color: Color3.White(),
-    style: PictureFrameStyle.Diamond_Ornament,
-  }
-);
-nft6.addComponent(shapeComponent6);
-nft6.addComponent(
-  new Transform({
-    position: new Vector3(51.65, 19.5, 46.4),
-    rotation: new Quaternion(0, 90, 0, -90),
-    scale: new Vector3(2.7, 2.7, 2.7),
-  })
-);
-nft6.addComponent(
-  new OnPointerDown((e) => {
-    openNFTDialog(
-      "ethereum://0x06012c8cf97BEaD5deAe237070F9587f8E7A266d/558536"
-    );
-  })
-);
-engine.addEntity(nft6);
+// const nft6 = new Entity();
+// const shapeComponent6 = new NFTShape(
+//   "ethereum://0x06012c8cf97BEaD5deAe237070F9587f8E7A266d/558536",
+//   {
+//     color: Color3.White(),
+//     style: PictureFrameStyle.Diamond_Ornament,
+//   }
+// );
+// nft6.addComponent(shapeComponent6);
+// nft6.addComponent(
+//   new Transform({
+//     position: new Vector3(51.65, 19.5, 46.4),
+//     rotation: new Quaternion(0, 90, 0, -90),
+//     scale: new Vector3(2.7, 2.7, 2.7),
+//   })
+// );
+// nft6.addComponent(
+//   new OnPointerDown((e) => {
+//     openNFTDialog(
+//       "ethereum://0x06012c8cf97BEaD5deAe237070F9587f8E7A266d/558536"
+//     );
+//   })
+// );
+// engine.addEntity(nft6);
 
-const nft7 = new Entity();
-const shapeComponent7 = new NFTShape(
-  "ethereum://0x06012c8cf97BEaD5deAe237070F9587f8E7A266d/558536",
-  {
-    color: Color3.White(),
-    style: PictureFrameStyle.Diamond_Ornament,
-  }
-);
-nft7.addComponent(shapeComponent7);
-nft7.addComponent(
-  new Transform({
-    position: new Vector3(38.35, 19.5, 46.4),
-    rotation: new Quaternion(0, -90, 0, -90),
-    scale: new Vector3(2.7, 2.7, 2.7),
-  })
-);
-nft7.addComponent(
-  new OnPointerDown((e) => {
-    openNFTDialog(
-      "ethereum://0x06012c8cf97BEaD5deAe237070F9587f8E7A266d/558536"
-    );
-  })
-);
-engine.addEntity(nft7);
+// const nft7 = new Entity();
+// const shapeComponent7 = new NFTShape(
+//   "ethereum://0x06012c8cf97BEaD5deAe237070F9587f8E7A266d/558536",
+//   {
+//     color: Color3.White(),
+//     style: PictureFrameStyle.Diamond_Ornament,
+//   }
+// );
+// nft7.addComponent(shapeComponent7);
+// nft7.addComponent(
+//   new Transform({
+//     position: new Vector3(38.35, 19.5, 46.4),
+//     rotation: new Quaternion(0, -90, 0, -90),
+//     scale: new Vector3(2.7, 2.7, 2.7),
+//   })
+// );
+// nft7.addComponent(
+//   new OnPointerDown((e) => {
+//     openNFTDialog(
+//       "ethereum://0x06012c8cf97BEaD5deAe237070F9587f8E7A266d/558536"
+//     );
+//   })
+// );
+// engine.addEntity(nft7);
 
-const nft8 = new Entity();
-const shapeComponent8 = new NFTShape(
-  "ethereum://0x06012c8cf97BEaD5deAe237070F9587f8E7A266d/558536",
-  {
-    color: Color3.White(),
-    style: PictureFrameStyle.Diamond_Ornament,
-  }
-);
-nft8.addComponent(shapeComponent8);
-nft8.addComponent(
-  new Transform({
-    position: new Vector3(38.35, 19.5, 35.6),
-    rotation: new Quaternion(0, -90, 0, -90),
-    scale: new Vector3(2.7, 2.7, 2.7),
-  })
-);
-nft8.addComponent(
-  new OnPointerDown((e) => {
-    openNFTDialog(
-      "ethereum://0x06012c8cf97BEaD5deAe237070F9587f8E7A266d/558536"
-    );
-  })
-);
-engine.addEntity(nft8);
+// const nft8 = new Entity();
+// const shapeComponent8 = new NFTShape(
+//   "ethereum://0x06012c8cf97BEaD5deAe237070F9587f8E7A266d/558536",
+//   {
+//     color: Color3.White(),
+//     style: PictureFrameStyle.Diamond_Ornament,
+//   }
+// );
+// nft8.addComponent(shapeComponent8);
+// nft8.addComponent(
+//   new Transform({
+//     position: new Vector3(38.35, 19.5, 35.6),
+//     rotation: new Quaternion(0, -90, 0, -90),
+//     scale: new Vector3(2.7, 2.7, 2.7),
+//   })
+// );
+// nft8.addComponent(
+//   new OnPointerDown((e) => {
+//     openNFTDialog(
+//       "ethereum://0x06012c8cf97BEaD5deAe237070F9587f8E7A266d/558536"
+//     );
+//   })
+// );
+// engine.addEntity(nft8);
 
 const _scene = new Entity("_scene");
 engine.addEntity(_scene);
@@ -998,32 +998,32 @@ const transform64 = new Transform({
 magicGemstoneTorch4.addComponentOrReplace(transform64);
 magicGemstoneTorch4.addComponentOrReplace(gltfShape6);
 
-const channelId = Math.random().toString(16).slice(2);
-const channelBus = new MessageBus();
-const inventory = createInventory(UICanvas, UIContainerStack, UIImage);
-const options = { inventory };
+// const channelId = Math.random().toString(16).slice(2);
+// const channelBus = new MessageBus();
+// const inventory = createInventory(UICanvas, UIContainerStack, UIImage);
+// const options = { inventory };
 
-const scriptChest = new ScriptChest();
-const scriptLever = new ScriptLever();
-scriptChest.init();
-scriptLever.init();
-scriptChest.spawn(
-  fantasyChest,
-  {
-    onClick: [
-      { entityName: "fantasyChest", actionId: "toggle", values: {} },
-    ],
-    onClickText: "Open"
-  },
-  createChannel(channelId, fantasyChest, channelBus)
-);
-scriptLever.spawn(
-  fantasyLever,
-  {
-    onActivate: [
-      { entityName: "fantasyChest", actionId: "toggle", values: {} },
-    ],
-  },
-  createChannel(channelId, fantasyLever, channelBus)
-);
+// const scriptChest = new ScriptChest();
+// const scriptLever = new ScriptLever();
+// scriptChest.init();
+// scriptLever.init();
+// scriptChest.spawn(
+//   fantasyChest,
+//   {
+//     onClick: [
+//       { entityName: "fantasyChest", actionId: "toggle", values: {} },
+//     ],
+//     onClickText: "Open"
+//   },
+//   createChannel(channelId, fantasyChest, channelBus)
+// );
+// scriptLever.spawn(
+//   fantasyLever,
+//   {
+//     onActivate: [
+//       { entityName: "fantasyChest", actionId: "toggle", values: {} },
+//     ],
+//   },
+//   createChannel(channelId, fantasyLever, channelBus)
+// );
 
