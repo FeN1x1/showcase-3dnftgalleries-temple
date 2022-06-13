@@ -7,39 +7,39 @@ import { createInventory } from "../node_modules/decentraland-builder-scripts/in
 import ScriptChest from "../ff9257ec-9d62-404f-97c7-cf19c4035761/src/item";
 import ScriptLever from "../649d5d96-18be-4f89-b592-f2dfce64b7fe/src/item";
 
-const coinShape = new GLTFShape("models/coin.glb");
+// const coinShape = new GLTFShape("models/coin.glb");
 
-const coinPositions = [
-  new Vector3(12, 3, 40.9),
-  new Vector3(18, 7, 40.9),
-  new Vector3(24, 11, 40.9),
-  new Vector3(30, 15, 40.9),
-  new Vector3(60, 15, 40.9),
-  new Vector3(66, 11, 40.9),
-  new Vector3(74, 5.6, 40.9),
-  new Vector3(80, 1.6, 40.9),
-  new Vector3(45, 13.6, 58),
-  new Vector3(45, 9.6, 64),
-  new Vector3(45, 5.6, 70),
-  new Vector3(45, 1.6, 76),
-  new Vector3(45, 13.6, 23),
-  new Vector3(45, 9.6, 17),
-  new Vector3(45, 5.6, 11),
-  new Vector3(45, 1.6, 5),
-];
+// const coinPositions = [
+//   new Vector3(12, 3, 40.9),
+//   new Vector3(18, 7, 40.9),
+//   new Vector3(24, 11, 40.9),
+//   new Vector3(30, 15, 40.9),
+//   new Vector3(60, 15, 40.9),
+//   new Vector3(66, 11, 40.9),
+//   new Vector3(74, 5.6, 40.9),
+//   new Vector3(80, 1.6, 40.9),
+//   new Vector3(45, 13.6, 58),
+//   new Vector3(45, 9.6, 64),
+//   new Vector3(45, 5.6, 70),
+//   new Vector3(45, 1.6, 76),
+//   new Vector3(45, 13.6, 23),
+//   new Vector3(45, 9.6, 17),
+//   new Vector3(45, 5.6, 11),
+//   new Vector3(45, 1.6, 5),
+// ];
 
-const triggerBoxShape = new utils.TriggerBoxShape(
-  new Vector3(1.5, 3, 1.5),
-  new Vector3(0, 1, 0)
-);
+// const triggerBoxShape = new utils.TriggerBoxShape(
+//   new Vector3(1.5, 3, 1.5),
+//   new Vector3(0, 1, 0)
+// );
 
-for (const coinPosition of coinPositions) {
-  createCoin(
-    coinShape,
-    new Transform({ position: coinPosition }),
-    triggerBoxShape
-  );
-}
+// for (const coinPosition of coinPositions) {
+//   createCoin(
+//     coinShape,
+//     new Transform({ position: coinPosition }),
+//     triggerBoxShape
+//   );
+// }
 
 const nft = new Entity();
 const shapeComponent = new NFTShape(
@@ -399,16 +399,6 @@ const transform9 = new Transform({
 magicGemstoneTorch2.addComponentOrReplace(transform9);
 magicGemstoneTorch2.addComponentOrReplace(gltfShape6);
 
-// const treasureChest = new Entity("treasureChest");
-// engine.addEntity(treasureChest);
-// treasureChest.setParent(_scene);
-// const transform10 = new Transform({
-//   position: new Vector3(45.5, 19.5, 41.5),
-//   rotation: new Quaternion(0, 0, 0, 1),
-//   scale: new Vector3(1, 1, 1),
-// });
-// treasureChest.addComponentOrReplace(transform10);
-
 const ambientSound = new Entity("ambientSound");
 engine.addEntity(ambientSound);
 ambientSound.setParent(_scene);
@@ -418,31 +408,6 @@ const transform11 = new Transform({
   scale: new Vector3(1, 1, 1),
 });
 ambientSound.addComponentOrReplace(transform11);
-
-// const ironFenceDoor = new Entity("ironFenceDoor");
-// engine.addEntity(ironFenceDoor);
-// ironFenceDoor.setParent(_scene);
-// const transform12 = new Transform({
-//   position: new Vector3(52.5, 18, 42.5),
-//   rotation: new Quaternion(
-//     -1.5394153601527394e-15,
-//     -0.7071068286895752,
-//     8.429369557916289e-8,
-//     0.7071068286895752
-//   ),
-//   scale: new Vector3(1.5000048875808716, 1.5, 0.7500024437904358),
-// });
-// ironFenceDoor.addComponentOrReplace(transform12);
-
-const pinkButton = new Entity("pinkButton");
-engine.addEntity(pinkButton);
-pinkButton.setParent(_scene);
-const transform13 = new Transform({
-  position: new Vector3(51.5, 19.5, 46.5),
-  rotation: new Quaternion(0, 0, -0.7071068286895752, 0.7071067690849304),
-  scale: new Vector3(3.5000014305114746, 3.5000014305114746, 3.5),
-});
-pinkButton.addComponentOrReplace(transform13);
 
 const bloomingBlueAcaciaTree = new Entity("bloomingBlueAcaciaTree");
 engine.addEntity(bloomingBlueAcaciaTree);

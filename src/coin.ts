@@ -1,7 +1,7 @@
 import * as utils from '@dcl/ecs-scene-utils'
 import * as ui from '@dcl/ui-scene-utils'
 
-let coinCount = new ui.UICounter(0, -780, 425, Color4.Yellow(), 30, true)
+let coinCount = new ui.UICounter(0, 0, 425, Color4.Yellow(), 30, true)
 
 const coinPickupSound = new Entity()
 coinPickupSound.addComponent(new Transform())
@@ -24,7 +24,6 @@ export function createCoin(
   entity.addComponent(model)
   entity.addComponent(transform)
 
-  // Create trigger for coin
   entity.addComponent(
     new utils.TriggerComponent(triggerShape, {
       onCameraEnter: () => {
@@ -43,17 +42,13 @@ export function createCoin(
 
 const coinpickup = () => {
   coinCount.increase() 
- 
   counter++
   if(counter === 16) {
     let prompt = new ui.OkPrompt(
       "You've collected all 16 coins! Chest was unlocked.",
-      () => {
-        log(`accepted`)
-      },
+      () => {},
       'Close',
       false
     )
-
   }
 }
