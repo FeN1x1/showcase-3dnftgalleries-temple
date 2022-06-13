@@ -1,5 +1,5 @@
-// import * as utils from "@dcl/ecs-scene-utils";
-// import { createCoin } from "./coin";
+import * as utils from "@dcl/ecs-scene-utils";
+import { createCoin } from "./coin";
 
 import { createChannel } from "../node_modules/decentraland-builder-scripts/channel";
 import { createInventory } from "../node_modules/decentraland-builder-scripts/inventory";
@@ -9,37 +9,37 @@ import ScriptLever from "../649d5d96-18be-4f89-b592-f2dfce64b7fe/src/item";
 
 const coinShape = new GLTFShape("models/coin.glb");
 
-// const coinPositions = [
-//   new Vector3(12, 3, 40.9),
-//   new Vector3(18, 7, 40.9),
-//   new Vector3(24, 11, 40.9),
-//   new Vector3(30, 15, 40.9),
-//   new Vector3(60, 15, 40.9),
-//   new Vector3(66, 11, 40.9),
-//   new Vector3(74, 5.6, 40.9),
-//   new Vector3(80, 1.6, 40.9),
-//   new Vector3(45, 13.6, 58),
-//   new Vector3(45, 9.6, 64),
-//   new Vector3(45, 5.6, 70),
-//   new Vector3(45, 1.6, 76),
-//   new Vector3(45, 13.6, 23),
-//   new Vector3(45, 9.6, 17),
-//   new Vector3(45, 5.6, 11),
-//   new Vector3(45, 1.6, 5),
-// ];
+const coinPositions = [
+  new Vector3(12, 3, 40.9),
+  new Vector3(18, 7, 40.9),
+  new Vector3(24, 11, 40.9),
+  new Vector3(30, 15, 40.9),
+  new Vector3(60, 15, 40.9),
+  new Vector3(66, 11, 40.9),
+  new Vector3(74, 5.6, 40.9),
+  new Vector3(80, 1.6, 40.9),
+  new Vector3(45, 13.6, 58),
+  new Vector3(45, 9.6, 64),
+  new Vector3(45, 5.6, 70),
+  new Vector3(45, 1.6, 76),
+  new Vector3(45, 13.6, 23),
+  new Vector3(45, 9.6, 17),
+  new Vector3(45, 5.6, 11),
+  new Vector3(45, 1.6, 5),
+];
 
-// const triggerBoxShape = new utils.TriggerBoxShape(
-//   new Vector3(1.5, 3, 1.5),
-//   new Vector3(0, 1, 0)
-// );
+const triggerBoxShape = new utils.TriggerBoxShape(
+  new Vector3(1.5, 3, 1.5),
+  new Vector3(0, 1, 0)
+);
 
-// for (const coinPosition of coinPositions) {
-//   createCoin(
-//     coinShape,
-//     new Transform({ position: coinPosition }),
-//     triggerBoxShape
-//   );
-// }
+for (const coinPosition of coinPositions) {
+  createCoin(
+    coinShape,
+    new Transform({ position: coinPosition }),
+    triggerBoxShape
+  );
+}
 
 const nft = new Entity();
 const shapeComponent = new NFTShape(
@@ -398,6 +398,7 @@ const transform9 = new Transform({
 });
 magicGemstoneTorch2.addComponentOrReplace(transform9);
 magicGemstoneTorch2.addComponentOrReplace(gltfShape6);
+
 
 const ambientSound = new Entity("ambientSound");
 engine.addEntity(ambientSound);
